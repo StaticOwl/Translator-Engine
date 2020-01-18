@@ -327,4 +327,4 @@ def translate(sentence):
 
 checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
 
-translate(u'Hola chica, me gusta tu trasero! ¿Qué me tomaria conseguirlo?')
+translate(u'Hola chica, me gusta tu trasero! ¿Qué me tomaría conseguirlo?')
